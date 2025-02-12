@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.my-fixed-bg {
+    background-attachment: fixed !important;
+  }
+  
