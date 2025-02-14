@@ -1,9 +1,9 @@
 const AppointmentCard = () => {
   return (
-    <div className="p-4 flex flex-col justify-center items-center border-3 rounded-3xl border-orange-100/55 backdrop-blur-xl absolute gap-6 text-white left-15 top-18">
+    <div className="p-2 lg:p-4 flex mx-12 md:mx-0 flex-col justify-center items-center border-3 rounded-3xl border-orange-100/55 backdrop-blur-xl md:absolute gap-2 lg:gap-6 text-white md:left-15 md:top-18">
       <div className="flex flex-col justify-center items-center ">
-        <h6 className="text-lg">Appointment Confirmed</h6>
-        <p className="text-[11px] text-white/65">
+        <h6 className="text-sm lg:text-lg">Appointment Confirmed</h6>
+        <p className="text-[9px] lg:text-[11px] text-white/65">
           You are scheduled with Alex Carlow
         </p>
       </div>
@@ -21,10 +21,10 @@ const AppointmentCard = () => {
           <div className="absolute"></div>
         </div>
         <div className="flex items-start justify-center flex-col">
-          <h5 className="text-lg -mb-1">Alex Carlow</h5>
-          <p className="text-[15px]">
+          <h5 className="text-sm lg:text-lg -mb-1">Alex Carlow</h5>
+          <p className="text-[11px] lg:text-[15px]">
             ⭐⭐⭐⭐⭐{" "}
-            <span className="font-extralight text-lg">5.0</span>
+            <span className="font-extralight text-md lg:text-lg">5.0</span>
           </p>
           <p className="text-xs text-white/55">
             Barcelona carrer de Valencia,196
@@ -36,7 +36,7 @@ const AppointmentCard = () => {
           <p className="text-[11px]">Sat 08 Feb 11:00-12:00</p>
           <p className="text-[11px] text-white/75">Woman Haircut</p>
         </div>
-        <div className="text-lg">$ 80.00</div>
+        <div className="text-sm lg:text-lg">$ 80.00</div>
       </div>
       <div className="flex bg-amber-300 rounded-3xl">
         <button className="py-3 px-14 text-xs text-black font-semibold ">
