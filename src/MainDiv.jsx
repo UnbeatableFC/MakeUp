@@ -1,5 +1,5 @@
 import AppointmentCard from "./components/AppointmentCard";
-import Phone from "./components/pHONE.JSX";
+import Phone from "./components/Phone";
 
 const MainDiv = () => {
   return (
