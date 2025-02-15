@@ -3,7 +3,7 @@ import Phone from "./components/Phone";
 
 const MainDiv = () => {
   return (
-    <section className="bg-[url('/assets/background.jpg')] relative sm:h-[960px] md:h-[840px] lg:h-[960px] object-contain my-1 flex flex-col-reverse gap-10 md:pl-6 py-5 bg-center bg-cover mx-5 lg:w-9/11 lg:mx-auto">
+    <section className="bg-[url('/assets/background.jpg')] relative sm:h-[960px] md:h-[840px] lg:h-[960px] object-contain my-1 flex flex-col-reverse gap-10 md:pl-6 py-5 bg-center bg-cover mx-3 lg:w-9/11 lg:mx-auto">
       <AppointmentCard />
       <div className="flex flex-col-reverse gap-10">
         <div className="md:absolute top-10 right-0 w-8/9 mx-auto md:w-5/12 lg:w-4/11 px-1 md:pl-2 py-2 border-3 rounded-2xl md:rounded-s-[38px] border-yellow-500/50">
